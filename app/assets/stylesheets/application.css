@@ -13,3 +13,45 @@
  *= require_tree .
  *= require_self
  */
+
+ nav a {
+  text-decoration: none;
+  color: #000;
+ }
+
+.cards {
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card {
+  width: 32%;
+}
+
+ .card-body {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+ }
+
+.card .img {
+  height: 180px;
+}
+
+.banner {
+  background-image: url("eduard-uY2kic9wlmc-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.flat-content .header, .sidebar {
+  margin-top: -2rem;
+  padding: 1rem;
+}
+
+.flat-content .description {
+  margin-top: 1rem;
+  padding: 1rem;
+}
